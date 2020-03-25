@@ -1,8 +1,8 @@
-import React from "react"
-import Triangle from "./triangle"
-import Pentagon from "./pentagon"
-import Circle from "./circle"
-import Square from "./square"
+import React from "react";
+import Triangle from "./triangle";
+import Pentagon from "./pentagon";
+import Circle from "./circle";
+import Square from "./square";
 
 export default () => (
   <div
@@ -25,4 +25,4 @@ export default () => (
     <Circle style={{ width: "400px", height: "400px" }} />
     <Square style={{ width: "300px", height: "300px" }} />
   </div>
-)
+);

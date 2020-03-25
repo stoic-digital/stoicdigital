@@ -1,6 +1,6 @@
-import React from "react"
-import Logo from "../components/logo"
-import Shapes from "../components/shapes"
+import React from "react";
+import Logo from "./logo";
+import Shapes from "./shapes";
 
 export default () => (
   <section style={{ padding: "8vmin", height: "100vh" }}>
@@ -8,8 +8,8 @@ export default () => (
     <Shapes />
     <blockquote style={{ fontSize: "6vmin", marginTop: "2em" }}>
       <p style={{ margin: 0 }}>
-        <span style={{ fontFamily: "georgia" }}>&ldquo;</span>It takes a lot of
-        hard work
+        <span style={{ fontFamily: "georgia" }}>&ldquo;</span>
+        It takes a lot of hard work
       </p>
       <p>
         &nbsp;&nbsp;to make something simple
@@ -18,4 +18,4 @@ export default () => (
       <footer>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— Steve Jobs</footer>
     </blockquote>
   </section>
-)
+);

@@ -1,0 +1,31 @@
+{
+  "extends": ["airbnb", "plugin:flowtype/recommended"],
+  "parser": "babel-eslint",
+  "plugins": ["flowtype"],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "quotes": [0]
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "src/"]
+      },
+      "babel-module": {
+        "root": ["./src"],
+        "alias": {
+          "queries": "./src/queries",
+          "types": "./src/types",
+          "components": "./src/components",
+          "services": "./src/services",
+          "helpers": "./src/helpers"
+        }
+      }
+    }
+  }
+}
