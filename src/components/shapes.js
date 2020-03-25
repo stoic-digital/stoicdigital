@@ -20,9 +20,9 @@ export default () => (
     <Pentagon style={{ width: "300px", height: "300px" }} />
     <Circle style={{ width: "400px", height: "400px" }} />
     <Square style={{ width: "300px", height: "300px" }} />
-    {/* <Triangle style={{ width: "250px", height: "250px" }} />
+    <Triangle style={{ width: "250px", height: "250px" }} />
     <Pentagon style={{ width: "300px", height: "300px" }} />
     <Circle style={{ width: "400px", height: "400px" }} />
-    <Square style={{ width: "300px", height: "300px" }} /> */}
+    <Square style={{ width: "300px", height: "300px" }} />
   </div>
 );

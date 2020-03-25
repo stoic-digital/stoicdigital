@@ -85,6 +85,7 @@ form textarea {
 }
 
 .shape {
+  top: 100%;
   animation: 120s rotateClockwise linear infinite, 100s floatUp ease-in infinite;
   position: absolute;
   right: 8vmin;
@@ -114,10 +115,25 @@ form textarea {
   right: 2vmin;
 }
 
-/* .shape:nth-child(n + 5).shape--triangle {
+.shape:nth-child(n + 5).shape--triangle {
+  animation-delay: -15s;
+  right: 5vmin;
+}
+
+.shape:nth-child(n + 5).shape--square {
   animation-delay: 50s;
-  background-color: red;
-} */
+  right: 10vmin;
+}
+
+.shape:nth-child(n + 5).shape--circle {
+  animation-delay: 15s;
+  right: 25vmin;
+}
+
+.shape:nth-child(n + 5).shape--pentagon {
+  animation-delay: -5s;
+  right: 20vmin;
+}
 
 @keyframes rotateClockwise {
   0% {
