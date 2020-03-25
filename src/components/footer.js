@@ -8,7 +8,17 @@ export default () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(email, message, name);
+    emailjs.send(
+      "stoic_digital",
+      "template_AgX36xuZ",
+      {
+        from_name: email,
+        to_name: "rob@stoicdigital.com",
+        subject: "Website enquiry",
+        message_html: message,
+      },
+      "user_6UUJZvJsLKEt9JobP5KzC",
+    );
   };
   return (
     <footer style={{ padding: "8vmin" }}>
