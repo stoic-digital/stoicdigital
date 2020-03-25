@@ -114,10 +114,10 @@ form textarea {
   right: 2vmin;
 }
 
-.shape:nth-child(n + 5).shape--triangle {
+/* .shape:nth-child(n + 5).shape--triangle {
   animation-delay: 50s;
   background-color: red;
-}
+} */
 
 @keyframes rotateClockwise {
   0% {
@@ -143,23 +143,6 @@ form textarea {
   100% {
     top: -100%;
   }
-}
-
-.about {
-  position: relative;
-}
-
-.about:before {
-  content: "";
-  position: absolute;
-  top: -60px;
-  left: 50%;
-  margin-left: -15px;
-  width: 30px;
-  height: 30px;
-  border-bottom: 5px solid #dab76c;
-  border-right: 5px solid #dab76c;
-  transform: rotate(45deg);
 }
 
 h2 {

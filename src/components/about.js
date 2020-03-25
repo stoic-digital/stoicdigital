@@ -1,7 +1,7 @@
 import React from "react";
 
 export default () => (
-  <section style={{ background: "#dab76c", color: "#fff", padding: "8vmin" }} className="about">
+  <section style={{ background: "#dab76c", color: "#fff", padding: "8vmin" }} id="about">
     <h2>Think slow&hellip;</h2>
     <h2 style={{ textAlign: "right", fontStyle: "italic" }}>&hellip;act fast.</h2>
   </section>
