@@ -5,6 +5,7 @@ html {
   background-color: #ecebe1;
   color: #afaaa5;
   font-family: Palatino, serif;
+  user-select: none;
 }
 *,
 *:before,
@@ -22,6 +23,15 @@ section {
   display: block;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
 blockquote {
   color: #afaaa5;
   line-height: 0.7em;
@@ -32,9 +42,13 @@ button {
   border: 0;
   color: #fff;
   padding: 0.5em 1em;
-  font-size: 3em;
+  font-size: 2em;
   font-family: Palatino, serif;
   cursor: pointer;
+}
+
+p {
+  font-size: 1.5em;
 }
 
 input:placeholder,
@@ -95,24 +109,32 @@ form textarea {
   animation: 120s rotateAnticlockwise linear infinite, 150s floatUp ease-in infinite;
   animation-delay: -70s;
   right: 25vmin;
+  width: 25vmax !important;
+  height: 25vmax !important;
 }
 
 .shape--square {
   animation: 120s rotateClockwise linear infinite, 120s floatUp ease-in infinite;
   right: 30vmin;
   animation-delay: -30s;
+  width: 30vmax !important;
+  height: 30vmax !important;
 }
 
 .shape--circle {
   animation: 120s rotateClockwise linear infinite, 120s floatUp ease-in infinite;
   animation-delay: -50s;
   right: -8vmin;
+  width: 40vmax !important;
+  height: 40vmax !important;
 }
 
 .shape--pentagon {
   animation: 120s rotateClockwise linear infinite, 100s floatUp ease-in infinite;
   animation-delay: -60s;
   right: 2vmin;
+  width: 30vmax !important;
+  height: 30vmax !important;
 }
 
 .shape:nth-child(n + 5).shape--triangle {
@@ -168,4 +190,10 @@ h2 {
 
 h3 {
   font-size: 6vw;
+}
+
+h5 {
+  color: #dab76c;
+  font-size: 4vw;
+  margin: 0.8em 0;
 }

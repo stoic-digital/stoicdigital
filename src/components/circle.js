@@ -5,7 +5,7 @@ export default ({ style }) => (
     <path
       fillRule="evenodd"
       stroke="rgb(222, 209, 203)"
-      strokeWidth="12px"
+      strokeWidth="6px"
       strokeLinecap="butt"
       strokeLinejoin="miter"
       opacity="0.529"

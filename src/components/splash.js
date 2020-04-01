@@ -3,18 +3,34 @@ import Logo from "./logo";
 import Shapes from "./shapes";
 
 export default () => (
-  <section style={{ padding: "8vmin", height: "100vh" }}>
+  <section
+    style={{
+      padding: "8vmin",
+      height: "100vh",
+      position: "relative",
+      zIndex: 10,
+      backgroundColor: "#ecebe1",
+    }}
+  >
     <Logo style={{ height: "30vmin" }} />
     <Shapes />
-    <blockquote style={{ fontSize: "6vmin", marginTop: "2em" }}>
-      <p style={{ margin: 0 }}>
+    <blockquote
+      style={{
+        fontSize: "6vmin",
+        margin: "0",
+        position: "absolute",
+        top: "50vh",
+      }}
+    >
+      <h4 style={{ margin: 0, lineHeight: "1.3em" }}>
         <span style={{ fontFamily: "georgia" }}>&ldquo;</span>
         It takes a lot of hard work
-      </p>
-      <p>
+      </h4>
+      <h4 style={{ margin: 0, lineHeight: "1.3em" }}>
         &nbsp;&nbsp;to make something simple
         <span style={{ fontFamily: "georgia" }}>&rdquo;</span>
-      </p>
+      </h4>
+      <br />
       <footer>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— Steve Jobs</footer>
     </blockquote>
     <div
