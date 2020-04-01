@@ -25,7 +25,10 @@ const BgText = ({ children, right }) => (
         right: ${right ? 0 : "auto"};
         transform: rotate(-90deg) translate(0, 100%);
         transform-origin: 0 100%;
-        font-size: 40vh;
+        font-size: 20vh;
+        @media (min-width: 740px) {
+          font-size: 40vh;
+        }
       `}
     >
       {children}
