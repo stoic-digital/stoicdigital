@@ -57,7 +57,7 @@ export default () => (
           alt="Get it on Google Play"
           css={css`
             display: inline-block;
-            height: 40px;
+            height: 60px;
           `}
           src="https://play.google.com/intl/en_gb/badges/static/images/badges/en_badge_web_generic.png"
         />
