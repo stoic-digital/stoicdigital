@@ -45,7 +45,7 @@ function SEO({
         },
         {
           property: `og:title`,
-          content: title,
+          content: "Stoic Digital",
         },
         {
           property: `og:description`,
