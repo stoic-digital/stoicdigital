@@ -10,6 +10,8 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 
+import OGImage from "../images/opengraph.png";
+
 function SEO({
   description, lang, meta, title,
 }) {
@@ -48,6 +50,14 @@ function SEO({
         {
           property: `og:description`,
           content: metaDescription,
+        },
+        {
+          property: `og:image`,
+          content: OGImage,
+        },
+        {
+          property: `image`,
+          content: OGImage,
         },
         {
           property: `og:type`,
