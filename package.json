@@ -26,7 +26,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "flow-bin": "^0.121.0",
-    "gatsby": "^2.17.11",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.31",
     "gatsby-plugin-manifest": "^2.2.27",
     "gatsby-plugin-offline": "^3.0.19",
